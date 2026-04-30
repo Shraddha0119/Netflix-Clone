@@ -1,6 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/netflexlogo.webp'
+import search_icon from '../../assets/search.png'
+import bell_icon from '../../assets/bel_icon.png'
 
 const Navbar = () => {
   return (
@@ -18,7 +20,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <img src=''/>
+        <img src={search_icon} className='icons'/>
+        <p>Children</p>
+        <img src={bell_icon} className='icons'/>
       </div>
     </div>
   )
